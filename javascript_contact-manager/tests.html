@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Code</title>
+	<script src="js/libs/data-access/local-storage/DataAccess.js"></script>
+	<script type="text/javascript">
+	
+	window.addEventListener("load", function(){
+
+		var contact1 = {
+			firstName:"Bob",
+			lastName: "Smith",
+			email: "bob@smith.com",
+			phone: "555-1212"
+		};
+
+		var contact2 = {
+			firstName:"Betty",
+			lastName: "Jones",
+			email: "betty@jones.com",
+			phone: "555-1234"
+		};
+
+		var contact3 = {
+			firstName:"Sara",
+			lastName: "Jackson",
+			email: "sara@jackson.com",
+			phone: "555-5555"
+		};
+
+		var da = new DataAccess();
+		
+		da.insert(contact1);
+		da.insert(contact2);
+		da.insert(contact3);
+		
+
+		var allContacts = da.getAll();
+		console.log(allContacts);
+
+		var sara = da.getById(3);
+		console.log(sara);
+
+		sara.lastName = "Anderson";
+		da.update(sara);
+
+		da.deleteById(sara.id);
+
+
+	});	
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

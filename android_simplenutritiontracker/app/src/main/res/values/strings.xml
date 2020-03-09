@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SimpleNutritionTracker</string>
+    <string name="lbl_calories">Calorie Intake:</string>
+    <string name="lbl_protein">Protein Macros:</string>
+    <string name="lbl_carb">Carb Macros:</string>
+    <string name="lbl_fat">Fat Macros:</string>
+    <string name="title_activity_macros_list">MacrosListActivity</string>
+    <string name="btnEditMacros">Edit Macros</string>
+    <string name="btnViewMeals">View Meals</string>
+    <string name="btnViewFoodGroups">View Food Groups</string>
+
+    <string name="lbl_date">Date:</string>
+    <string name="btnSaveMacros">Save Macros</string>
+    <string name="btnDeleteMacros">Delete Macros</string>
+
+    <string name="lbl_mealDescription">Meal Description:</string>
+    <string name="lbl_proteinSource">Protein Source:</string>
+    <string name="lbl_carbSource">Carb Source:</string>
+    <string name="lbl_fatSource">Fat Source:</string>
+    <string name="btn_EditMeal">Edit Meal</string>
+
+    <string name="btnSaveMeal">Save Meal</string>
+    <string name="btnDeleteMeal">Delete Meal</string>
+
+    <string name="lbl_grainServings">Grain Servings:</string>
+    <string name="lbl_beanServings">Bean Servings:</string>
+    <string name="lbl_vegetableServings">Vegetable Servings:</string>
+    <string name="lbl_fruitServings">Fruit Servings:</string>
+    <string name="lbl_meatServings">Meat, Fish, and Egg Servings:</string>
+    <string name="lbl_dairyServings">Dairy Servings:</string>
+    <string name="lbl_nutsAndSeedsServings">Nuts and Seeds Servings:</string>
+    <string name="lbl_dessertServings">Dessert Servings:</string>
+    <string name="lbl_waterOunces">Ounces of Water:</string>
+    <string name="lbl_cupsOfCoffee">Cups of Coffee:</string>
+
+    <string name="btnSave">Save</string>
+    <string name="btnDelete">Delete</string>
+
+</resources>

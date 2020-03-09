@@ -1,0 +1,168 @@
+#contact-app{
+	overflow: auto;
+}
+
+body{
+	overflow-x: hidden;
+	overflow-y: scroll;
+	background-color: paleturquoise;
+}
+
+#contact-list-container,#contact-details-container,#contact-form-container{
+	float:left;
+	border-top: 1px solid black;
+	margin:20px;
+	padding:20px;
+}
+
+#contact-list-container{
+	width:200px;
+	font-family: 'Kalam', cursive;
+}
+
+#contact-list{
+	font-size: 24px;
+}
+
+ul#contact-list li:hover{
+	color: blue;
+}
+
+#contact-form-container{
+	width:500px;
+}
+
+#contact-form label{
+	display: inline-block;
+	width:100px;
+	text-align: right;
+}
+
+#contact-form input{
+	margin: 16px 8px 16px 8px;
+	font-size: 18px;
+}
+
+div#buttons{
+	margin-left: 104px;
+	grid-area: 'buttons';
+}
+
+#contact-form button{
+	margin: 8px;
+}
+
+/*styling from https://codepen.io/palimadra/pen/OVvbaY  */
+.validation{
+	border: 1px solid;
+	margin: 6px 0px;
+	padding: 8px 16px 8px 40px;
+	background-repeat: no-repeat;
+	background-position: 10px left;
+	color: #D8000C;
+	background-color: #FFBABA;
+	background-image: url('https://i.imgur.com/GnyDvKN.png');
+	font-size: 16px;
+	grid-area: 'error_messages';
+	white-space: nowrap;
+}
+
+/*moving some of these rules higher up was causing problems */
+html, body{
+	margin: 0; 
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	position:static;
+	height:50px;
+	margin:0;
+	padding:0;
+	background-color:#07889B;
+	font-family: 'Courgette', cursive;
+	font-size: 36px;
+	color: navy;
+}
+
+#contact-list-container,#contact-details-container,#contact-form-container{
+	width:100%;
+	position:absolute;
+	top:50px;
+	bottom:0px;
+	margin:0;
+	opacity:0;  
+	transition:opacity 1s; 
+	font-size: 18px;
+}
+
+div.links{
+	position: absolute;
+	bottom: 10px;
+	padding: 5px;
+}
+
+#contact-form{
+	padding-right: 40px;
+}
+
+#contact-form #txtId{
+	display:none;
+}
+
+h5#lblContactId, label#lblID{
+	display:none;
+}
+
+#vFirstName, #vLastName, #vEmail, #vPhone{
+	visibility:hidden;
+}
+
+label{
+	grid-area: 'labels';
+}
+
+input[type="text"]{
+	grid-area: 'textboxes';
+	padding: 5px;
+}
+
+/* For when we make the app 'reponsive'... */
+@media screen and (max-width: 800px) {
+
+	#contact-form{
+		overflow-y: scroll;
+		display: grid;
+		grid-template-areas:
+			'labels' 
+			'textboxes' 
+			'error_messages'
+			'buttons';
+	}
+
+	#contact-form input{
+		margin: 0px;
+		width: 100%;
+	}
+
+	#contact-form label{
+		text-align: left;
+	}
+
+	div#buttons{
+		margin-left: 0px;
+	}
+
+	div.links{
+		position: relative;
+	}
+
+	.validation{
+		display: block;
+		white-space: normal;
+		word-wrap: break-word;
+	}
+        
+}
+
+

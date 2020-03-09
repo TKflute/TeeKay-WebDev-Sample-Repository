@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MealDetailsActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MealDetailsActivity"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lblGrainServings"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_grainServings" />
+
+        <EditText
+            android:id="@+id/txtGrainServings"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MealDetailsActivity"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lblBeanServings"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_beanServings" />
+
+        <EditText
+            android:id="@+id/txtBeanServings"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MealDetailsActivity"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lblVegetableServings"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_vegetableServings" />
+
+        <EditText
+            android:id="@+id/txtVegetableServings"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MealDetailsActivity"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lblFruitServings"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_fruitServings" />
+
+        <EditText
+            android:id="@+id/txtFruitServings"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MealDetailsActivity"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lblMeatServings"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_meatServings" />
+
+        <EditText
+            android:id="@+id/txtMeatServings"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MealDetailsActivity"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lblDairyServings"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_dairyServings" />
+
+        <EditText
+            android:id="@+id/txtDairyServings"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MealDetailsActivity"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lblNutsAndSeedsServings"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_nutsAndSeedsServings" />
+
+        <EditText
+            android:id="@+id/txtNutsAndSeedsServings"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MealDetailsActivity"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lblDessertServings"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_dessertServings" />
+
+        <EditText
+            android:id="@+id/txtDessertServings"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MealDetailsActivity"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lblWaterOunces"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_waterOunces" />
+
+        <EditText
+            android:id="@+id/txtWaterOunces"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MealDetailsActivity"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lblCupsOfCoffee"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_cupsOfCoffee" />
+
+        <EditText
+            android:id="@+id/txtCupsOfCoffee"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/lblDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_date" />
+
+    <EditText
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MealDetailsActivity"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSave" />
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnDelete" />
+    </LinearLayout>
+</LinearLayout>
